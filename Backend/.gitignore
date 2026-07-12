@@ -12,7 +12,7 @@ __pycache__/
 .pytest_cache/
 
 # Databases
-Backend/db.sqlite3
+db.sqlite3
 
 # Local environment variables
 .env
