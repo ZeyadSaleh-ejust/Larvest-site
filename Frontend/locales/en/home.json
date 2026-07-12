@@ -1,0 +1,68 @@
+{
+  "hero": {
+    "title": "AI-Remote Sensing Solutions",
+    "subtitle": "For Green Sustainability",
+    "description": "Empowering urban development and agriculture with advanced remote sensing to mitigate risks, optimize zoning, and engineer a resilient, sustainable future.",
+    "getStarted": "REQUEST CONSULTATION",
+    "learnMore": "LEARN MORE"
+  },
+  "stats": {
+    "title": "Our Impact",
+    "subtitle": "Transforming Communities with Data",
+    "accuracy": "Data Precision\n(Spatial Fidelity)",
+    "foodDemand": "Municipal Data Gaps\n(The Problem)",
+    "dataLacking": "Urban Flood Risk\nReducibility (Outcome)",
+    "yieldImprovement": "Sustainability Reseline\nCompliance (Outcome)"
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Empowering communities with spatial intelligence",
+    "aiInsights": {
+      "title": "AI-POWERED ASSESSMENTS",
+      "description": "Deep hydrological and environmental impact assessments for urban and agricultural developments."
+    },
+    "realTimeMonitoring": {
+      "title": "PREDICTIVE FLOOD MODELING",
+      "description": "Utilizing dynamic DEMs and precipitation data to map runoff and retention zones."
+    },
+    "precisionAgriculture": {
+      "title": "PRECISION AGRICULTURE ZONING",
+      "description": "Optimizing soil moisture, irrigation systems, and nutrient planning using macro-scale spatial data."
+    },
+    "scalableSolutions": {
+      "title": "FUTURISTIC SPATIAL PLANNING",
+      "description": "Designing intelligent, optimized community layouts tailored to the natural topography."
+    },
+    "sustainability": {
+      "title": "CLIMATOLOGICAL RESILIENCE PROFILING",
+      "description": "Deep assessments of UHI, coastal erosion, and long-term structural viability."
+    },
+    "userFriendly": {
+      "title": "R&D VANGUARD METHODOLOGIES",
+      "description": "The Core Engine: developing proprietary, Q1-publishable methods and competing for funded research."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "dataIntegration": {
+      "title": "Geospatial Data Acquisition",
+      "description": "Integration of dynamic satellite missions, ground sensors, and telemetry."
+    },
+    "aiAnalysis": {
+      "title": "Algorithmic Signal Processing",
+      "description": "High-fidelity filtering and anomaly detection to establish accurate baselines."
+    },
+    "tailoredInsights": {
+      "title": "Coupled Planetary Modeling",
+      "description": "Integrating hydrological, agricultural, and climatological data arrays for tailored results."
+    },
+    "realTimeMonitoring": {
+      "title": "Interactive Spatial Visualization",
+      "description": "Generating high-contrast maps, predictive twins, and spatial dashboards."
+    },
+    "actionableSolutions": {
+      "title": "Strategic Consultancy & Blueprinting",
+      "description": "Delivering optimized zoning and mitigation plans required for investment protection."
+    }
+  }
+}

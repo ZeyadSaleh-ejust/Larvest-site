@@ -1,0 +1,116 @@
+{
+  "header": {
+    "title": "Profile Settings",
+    "description": "Manage your account settings and preferences"
+  },
+  "form": {
+    "personalInfo": {
+      "title": "Personal Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "username": "Username",
+      "birthDate": "Birth Date",
+      "bio": "Bio",
+      "phone": "Phone Number",
+      "location": "Location"
+    },
+    "additionalInfo": {
+      "title": "Additional Information"
+    },
+    "avatar": {
+      "title": "Profile Picture",
+      "change": "Change Picture",
+      "remove": "Remove Picture",
+      "upload": "Upload new picture",
+      "requirements": "JPG, GIF or PNG. Max size of 2MB.",
+      "verified": "Verified",
+      "pending": "Pending"
+    },
+    "buttons": {
+      "edit": "Edit Profile",
+      "save": "Save Changes",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "delete": "Delete Account"
+    }
+  },
+  "account": {
+    "title": "Account Settings",
+    "description": "Manage your account security and preferences",
+    "password": {
+      "title": "Password",
+      "description": "Update your password regularly to keep your account secure",
+      "button": "Change Password"
+    },
+    "email": {
+      "title": "Email Notifications",
+      "description": "Manage your email notification preferences",
+      "manage": "Manage"
+    },
+    "verification": {
+      "title": "Account Verification",
+      "description": "Verify your account to access all features",
+      "verified": "Verified",
+      "verify": "Verify Now"
+    },
+    "delete": {
+      "title": "Delete Account",
+      "description": "Permanently delete your account and all associated data",
+      "button": "Delete Account",
+      "confirm": "Are you sure you want to delete your account?",
+      "warning": "This action cannot be undone."
+    }
+  },
+  "subscription": {
+    "title": "Subscription",
+    "description": "Manage your subscription plan and billing details",
+    "current": "Current Plan",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "trial": "Trial",
+      "expired": "Expired"
+    },
+    "billingCycle": "Billing Cycle",
+    "nextBilling": "Next billing",
+    "freePlan": "Free Plan",
+    "notAvailable": "Not Available",
+    "upgrade": {
+      "title": "Upgrade Your Plan",
+      "description": "Get access to premium features",
+      "button": "Upgrade Now"
+    },
+    "manage": {
+      "title": "Manage Your Subscription",
+      "description": "Change plan, billing details, or cancel",
+      "billing": "Billing History",
+      "plan": "Manage Plan"
+    }
+  },
+  "notifications": {
+    "success": {
+      "profileUpdate": "Profile updated successfully",
+      "passwordUpdate": "Password updated successfully",
+      "emailUpdate": "Email preferences updated successfully"
+    },
+    "error": {
+      "title": "Error Loading Profile",
+      "default": "Failed to load profile data. Please try again later.",
+      "profileUpdate": "Failed to update profile",
+      "passwordUpdate": "Failed to update password",
+      "emailUpdate": "Failed to update email preferences",
+      "deleteAccount": "Failed to delete account",
+      "tryAgain": "Try Again"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "password": "Password must be at least 8 characters",
+    "passwordMatch": "Passwords do not match",
+    "phone": "Please enter a valid phone number",
+    "fileSize": "File size must be less than 2MB",
+    "fileType": "Only JPG, GIF or PNG files are allowed"
+  }
+}

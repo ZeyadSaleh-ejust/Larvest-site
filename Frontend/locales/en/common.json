@@ -1,0 +1,42 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "consultancy": "Consultancy",
+    "pricing": "Pricing",
+    "contactUs": "Contact Us",
+    "cropHealth": "Crop Health"
+  },
+  "navigation": {
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "consultancy": "Consultancy",
+    "blog": "Blog"
+  },
+  "cta": {
+    "title": "READY TO ENGINEER RESILIENT GREEN DEVELOPMENT?",
+    "description": "Join leading developers and governments already using RSS-GS to protect investments and ensure sustainability.",
+    "button": "REQUEST CONSULTATION"
+  },
+  "footer": {
+    "companyDescription": "Empowering communities with predictive spatial intelligence for a resilient, sustainable future",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "servicesList": {
+      "fertilizerZoning": "Precision Agriculture Zoning",
+      "diseaseDetection": "Predictive Flood Modeling",
+      "biomassYield": "AI-Powered Assessments",
+      "nutrientAnalysis": "Climatological Resilience Profiling",
+      "weatherForecasting": "Futuristic Spatial Planning"
+    },
+    "copyright": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Looks like this route hasn't been mapped yet. Let's get you back to the main grid.",
+    "button": "Return Home"
+  }
+}

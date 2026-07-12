@@ -1,0 +1,42 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "consultancy": "الاستشارات",
+    "pricing": "الأسعار",
+    "contactUs": "تواصل معنا",
+    "cropHealth": "صحة المحاصيل"
+  },
+  "navigation": {
+    "about": "من نحن",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "consultancy": "الاستشارات",
+    "blog": "المدونة"
+  },
+  "cta": {
+    "title": "هل أنت مستعد لهندسة تنمية خضراء ؟",
+    "description": "انضم إلي كبار المطورين الذين يستخدمون larvestai لحماية استثماراتهم وضمان الاستدامة",
+    "button": "طلب استشارة"
+  },
+  "footer": {
+    "companyDescription": "تمكين المجتمعات بالاستخبارات المكانية التنبؤية لمستقبل مرن ومستدام",
+    "quickLinks": "روابط سريعة",
+    "services": "خدماتنا",
+    "servicesList": {
+      "fertilizerZoning": "تقسيم زراعي اصطناعي",
+      "diseaseDetection": "نمذجة تنبؤية للفيضانات",
+      "biomassYield": "تقييمات الأثر بالذكاء الاصطناعي",
+      "nutrientAnalysis": "تنميط المرونة المناخية",
+      "weatherForecasting": "تخطيط مكاني مستقبلي"
+    },
+    "copyright": "جميع الحقوق محفوظة."
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "يبدو أن هذا المسار لم يتم رسمه بعد. دعنا نعيدك إلى الشبكة الرئيسية.",
+    "button": "العودة للرئيسية"
+  }
+}

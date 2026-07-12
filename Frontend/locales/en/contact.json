@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Get in Touch",
+    "description": "Have questions about Larvest? We're here to help! Send us a message and we'll get back to you as soon as possible."
+  },
+  "contactInfo": {
+    "title": "Get in Touch",
+    "email": {
+      "title": "Email Us",
+      "address": "contact@larvest.ai"
+    },
+    "location": {
+      "title": "Visit Us",
+      "address": "Werkplek050, Hereplein 4",
+      "city": "9711 GA Groningen, Netherlands"
+    }
+  },
+  "contactForm": {
+    "title": "Send us a Message",
+    "placeholders": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message"
+    },
+    "errors": {
+      "name": "Name must be at least 2 characters",
+      "email": "Please enter a valid email address",
+      "subject": "Subject must be at least 5 characters long",
+      "message": "Message must be at least 10 characters long"
+    },
+    "success": {
+      "title": "Message Sent!",
+      "message": "We'll get back to you as soon as possible."
+    },
+    "submit": "Send Message",
+    "submitting": "Sending..."
+  }
+}

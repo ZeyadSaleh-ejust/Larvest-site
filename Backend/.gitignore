@@ -1,0 +1,25 @@
+# Virtual environments
+Backend/LarvestVenv/
+.venv/
+venv/
+ENV/
+
+# Python caching & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases
+Backend/db.sqlite3
+
+# Local environment variables
+.env
+.env.local
+
+# IDE/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,127 @@
+{
+  "hero": {
+    "label": "Our Services",
+    "title": "Advanced Agricultural Solutions",
+    "description": "Empowering farmers with cutting-edge technology and data-driven insights for sustainable and efficient farming practices",
+    "features": {
+      "aiAssessments": {
+        "title": "AI-POWERED ASSESSMENTS",
+        "description": "Deep hydrological and environmental impact assessments for urban and agricultural developments."
+      },
+      "floodModeling": {
+        "title": "PREDICTIVE FLOOD MODELING",
+        "description": "Utilizing dynamic DEMs and precipitation data to map runoff and retention zones."
+      },
+      "precisionZoning": {
+        "title": "PRECISION AGRICULTURE ZONING",
+        "description": "Optimizing soil moisture, irrigation systems, and nutrient planning using macro-scale spatial data."
+      },
+      "spatialPlanning": {
+        "title": "FUTURISTIC SPATIAL PLANNING",
+        "description": "Designing intelligent, optimized community layouts tailored to the natural topography."
+      },
+      "climateProfiling": {
+        "title": "CLIMATOLOGICAL RESILIENCE PROFILING",
+        "description": "Deep assessments of UHI, coastal erosion, and long-term structural viability."
+      },
+      "rdVanguard": {
+        "title": "R&D VANGUARD METHODOLOGIES",
+        "description": "The Core Engine: developing proprietary, Q1-publishable methods and competing for funded research."
+      }
+    }
+  },
+  "services": {
+    "locationTools": {
+      "title": "Crop Health Monitoring",
+      "description": "Leverage advanced technology for precise, location-based farming insights.",
+      "features": ["Field Mapping", "GPS Technology", "Satellite Integration"]
+    },
+    "fertilizerMaps": {
+      "title": "Fertilizer Zoning Maps",
+      "description": "Optimize fertilizer application by dividing fields into efficient zones.",
+      "features": [
+        "Zone Division",
+        "Crop Health Insights",
+        "Real-Time Monitoring"
+      ]
+    },
+    "diseaseDetection": {
+      "title": "Disease Detection",
+      "description": "Use AI-powered tools to detect crop diseases early and enable timely intervention.",
+      "features": [
+        "Early Detection",
+        "Real-Time Alerts",
+        "Disease Identification"
+      ]
+    },
+    "biomassEstimation": {
+      "title": "Biomass & Yield Estimation",
+      "description": "Predict crop yields and monitor biomass using advanced satellite data.",
+      "features": [
+        "Satellite Monitoring",
+        "Accurate Yield Predictions",
+        "Growth Analysis",
+        "Harvest Planning"
+      ]
+    },
+    "nutrientAnalysis": {
+      "title": "Nutrient Analysis",
+      "description": "Analyze soil nutrient levels and receive actionable improvement recommendations.",
+      "features": [
+        "Soil Testing",
+        "Custom Fertilizer Suggestions",
+        "Deficiency Diagnosis",
+        "Balanced Nutrient Management"
+      ]
+    },
+    "weatherForecasting": {
+      "title": "Weather Forecasting",
+      "description": "Plan farming activities with hyperlocal weather forecasts and risk alerts.",
+      "features": [
+        "Accurate Forecasting",
+        "Weather Risk Alerts",
+        "Activity Scheduling",
+        "Long-Term Weather Trends"
+      ]
+    },
+    "irrigationManagement": {
+      "title": "Irrigation Management",
+      "description": "Optimize water usage with smart irrigation schedules and soil moisture monitoring.",
+      "features": [
+        "Automated Scheduling",
+        "Moisture Sensors",
+        "Water Usage Analytics",
+        "Leak Detection"
+      ]
+    }
+  },
+  "results": {
+    "title": "Success Stories",
+    "subtitle": "Real Impact, Real Results",
+    "description": "Discover how our platform is transforming agriculture with measurable outcomes",
+    "items": {
+      "fertilizer": {
+        "title": "Better Fertilizer Use",
+        "description": "Farmers have saved up to 25% on fertilizer costs while improving crop health using our zoning maps."
+      },
+      "disease": {
+        "title": "Early Disease Detection",
+        "description": "Our tools help catch crop diseases early, preventing significant losses and protecting yields."
+      },
+      "yield": {
+        "title": "Accurate Yield Predictions",
+        "description": "Our estimation tools allow farmers to plan ahead confidently, knowing what to expect from their harvest."
+      },
+      "soil": {
+        "title": "Healthier Soil",
+        "description": "Our nutrient analysis ensures balanced soil management, leading to stronger crops season after season."
+      },
+      "weather": {
+        "title": "Smarter Weather Decisions",
+        "description": "Farmers use our accurate forecasts to save on water and avoid weather-related risks."
+      }
+    },
+    "learnMore": "Learn more"
+  },
+  "comingSoon": "Coming Soon"
+}

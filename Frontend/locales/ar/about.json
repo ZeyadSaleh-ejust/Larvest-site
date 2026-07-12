@@ -1,0 +1,152 @@
+{
+  "sections": {
+    "aboutUs": "من نحن",
+    "ourVision": "رؤيتنا",
+    "ourValues": "قيمنا",
+    "ourPurpose": "هدفنا",
+    "_fallback": {
+      "aboutUs": "About Us",
+      "ourVision": "Our Vision",
+      "ourValues": "Our Values",
+      "ourPurpose": "Our Purpose"
+    }
+  },
+  "hero": {
+    "title": "إحداث ثورة في الزراعة من خلال الاستشعار عن بعد",
+    "description": "في لارفست، نستفيد من قوة التكنولوجيا لتحويل الزراعة. من خلال الجمع بين بيانات الأقمار الصناعية والذكاء الاصطناعي، تقدم منصتنا المبتكرة رؤى دقيقة في الوقت الفعلي حول صحة المحاصيل عبر مختلف القطاعات الزراعية. قل وداعاً للطرق القديمة كثيفة العمالة - عزز رحلة الزراعة الخاصة بك مع حلول لارفست القائمة على البيانات.",
+    "_fallback": {
+      "title": "Revolutionizing Agriculture Through Technology",
+      "description": "At Larvest, we harness the power of technology to transform agriculture. By combining satellite data and AI, our innovative platform delivers real-time, accurate insights into crop health across diverse agricultural sectors. Say goodbye to outdated, labor-intensive methods—empower your farming journey with Larvest's data-driven solutions."
+    }
+  },
+  "vision": {
+    "title": "تشكيل مستقبل الاستشعار عن بعد",
+    "subtitle": "نحن نتخيل عالماً تعمل فيه التكنولوجيا والاستشعار عن بعد بتناغم لإطعام الكوكب بشكل مستدام",
+    "points": {
+      "FloodRisk": {
+        "title": "نمذجة مخاطر الفيضانات والهيدرولوجيا",
+        "description": "نحمي بنيتك التحتية من الظواهر الجوية المتطرفة. من خلال معالجة نماذج الارتفاعات الرقمية (DEM) عالية الدقة وبيانات الهطول التنبؤية، نقوم بإنتاج خرائط دقيقة للجريان السطحي، وتحليلات الأحواض المائية، ومخططات مناطق الاحتجاز المائي."
+      },
+      "EnvironmentalImpact": {
+        "title": "تحليل الأثر البيئي واستخدامات وغطاء الأراضي (LULC)",
+        "description": "نساعدك على ضمان امتثال مشروعك لمعايير الاستدامة الدولية. نعتمد على المعالجة السريعة والخوارزمية لصور الأقمار الصناعية لتتبع التوسع العمراني، ورصد إزالة الغابات، وحساب مختلف المؤشرات البيئية."
+      },
+      "AgriculturalSpatial": {
+        "title": "الذكاء المكاني الزراعي ورسم خرائط التربة",
+        "description": "قلّل من مخاطر استثماراتك الزراعية. نقوم برسم خرائط لخطوط الأساس لرطوبة التربة ومؤشرات صحة الغطاء النباتي على نطاق واسع عبر مشاريع الاستصلاح الزراعي، بهدف تحسين الري ومراقبة استدامة المياه الجوفية."
+      },
+      "Geospatial": {
+        "title": "البحث والتطوير الجيومكاني",
+        "description": "هل لديك تحدٍ فريد يتعلق بالبيانات المكانية؟ يعمل علماء البيانات لدينا على بناء خطوط معالجة حاسوبية مخصصة لمعالجة البيانات المكانية المعقدة وتفسيرها واستخراج مؤشرات قابلة للتنفيذ من بيانات الأقمار الصناعية المدمجة مع المراصد الأرضية."
+      }
+    },
+    "_fallback": {
+      "title": "Shaping the Future of Agriculture",
+      "subtitle": "We envision a world where technology and agriculture work in harmony to feed the planet sustainably",
+      "points": {
+        "FloodRisk": {
+          "title": "نمذجة مخاطر الفيضانات والهيدرولوجيا",
+          "description": "نحمي بنيتك التحتية من الظواهر الجوية المتطرفة. من خلال معالجة نماذج الارتفاعات الرقمية (DEM) عالية الدقة وبيانات الهطول التنبؤية، نقوم بإنتاج خرائط دقيقة للجريان السطحي، وتحليلات الأحواض المائية، ومخططات مناطق الاحتجاز المائي."
+        },
+        "EnvironmentalImpact": {
+          "title": "تحليل الأثر البيئي واستخدامات وغطاء الأراضي (LULC)",
+          "description": "نساعدك على ضمان امتثال مشروعك لمعايير الاستدامة الدولية. نعتمد على المعالجة السريعة والخوارزمية لصور الأقمار الصناعية لتتبع التوسع العمراني، ورصد إزالة الغابات، وحساب مختلف المؤشرات البيئية."
+        },
+        "AgriculturalSpatial": {
+          "title": "الذكاء المكاني الزراعي ورسم خرائط التربة",
+          "description": "قلّل من مخاطر استثماراتك الزراعية. نقوم برسم خرائط لخطوط الأساس لرطوبة التربة ومؤشرات صحة الغطاء النباتي على نطاق واسع عبر مشاريع الاستصلاح الزراعي، بهدف تحسين الري ومراقبة استدامة المياه الجوفية."
+        },
+        "Geospatial": {
+          "title": "البحث والتطوير الجيومكاني",
+          "description": "هل لديك تحدٍ فريد يتعلق بالبيانات المكانية؟ يعمل علماء البيانات لدينا على بناء خطوط معالجة حاسوبية مخصصة لمعالجة البيانات المكانية المعقدة وتفسيرها واستخراج مؤشرات قابلة للتنفيذ من بيانات الأقمار الصناعية المدمجة مع المراصد الأرضية."
+        }
+      }
+    }
+  },
+  "stats": {
+    "yearsExperience": "سنوات الخبرة",
+    "happyClients": "عملاء سعداء",
+    "successRate": "معدل النجاح",
+    "awardsWon": "الجوائز المحققة",
+    "_fallback": {
+      "yearsExperience": "Years Experience",
+      "happyClients": "Happy Clients",
+      "successRate": "Success Rate",
+      "awardsWon": "Awards Won"
+    }
+  },
+  "values": {
+    "title": "ما يدفعنا للأمام",
+    "subtitle": "بناء مستقبل مستدام من خلال الابتكار والتميز",
+    "excellence": {
+      "title": "التميز",
+      "description": "نسعى للتميز في كل خدمة نقدمها، ووضع معايير الصناعة."
+    },
+    "innovation": {
+      "title": "الابتكار",
+      "description": "تبني حلول متطورة لتلبية الاحتياجات الزراعية المتطورة."
+    },
+    "integrity": {
+      "title": "النزاهة",
+      "description": "بناء الثقة من خلال ممارسات زراعية شفافة وأخلاقية."
+    },
+    "sustainability": {
+      "title": "الاستدامة",
+      "description": "ملتزمون بالعمليات والممارسات المسؤولة بيئياً."
+    },
+    "_fallback": {
+      "title": "What Drives Us Forward",
+      "subtitle": "Building a sustainable future through innovation and excellence",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for excellence in every service we deliver, setting industry standards."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Embracing cutting-edge solutions to meet evolving agricultural needs."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "Building trust through transparent and ethical farming practices."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Committed to environmentally responsible operations and practices."
+      }
+    }
+  },
+  "mission": {
+    "title": "مهمتنا",
+    "steps": {
+      "optimizeYields": {
+        "title": "تحسين غلة المزرعة",
+        "description": "تحويل الزراعة باستخدام التكنولوجيا المتطورة لتعزيز الإنتاجية والكفاءة."
+      },
+      "foodSecurity": {
+        "title": "تعزيز الأمن الغذائي",
+        "description": "تطوير حلول مبتكرة لدعم الإنتاج الغذائي الموثوق لسكان العالم المتزايدين."
+      },
+      "sustainability": {
+        "title": "تعزيز الاستدامة",
+        "description": "الحفاظ على الموارد الطبيعية وتعزيز الممارسات الصديقة للبيئة لمستقبل زراعي مستدام."
+      }
+    },
+    "_fallback": {
+      "title": "Our Mission",
+      "steps": {
+        "optimizeYields": {
+          "title": "Optimize Farm Yields",
+          "description": "Transform agriculture with cutting-edge technology to enhance productivity and efficiency."
+        },
+        "foodSecurity": {
+          "title": "Enhance Food Security",
+          "description": "Develop innovative solutions to support reliable food production for a growing global population."
+        },
+        "sustainability": {
+          "title": "Promote Sustainability",
+          "description": "Conserve natural resources and champion eco-friendly practices for a sustainable farming future."
+        }
+      }
+    }
+  }
+}

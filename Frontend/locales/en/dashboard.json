@@ -1,0 +1,569 @@
+{
+  "mapLayers": {
+    "title": "Precision Agriculture Map Layers",
+    "description": "Explore and analyze agricultural data through various map layers, including satellite imagery, soil analysis, and yield predictions.",
+    "controls": {
+      "drawByCoordinates": "Draw by coordinates",
+      "spatialAnalysis": "Spatial Analysis",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out"
+    }
+  },
+  "mapControls": {
+    "title": "Map Layers & Analysis",
+    "generateTiles": "Generate Tiles",
+    "createCustomFilter": "Create Custom Filter",
+    "loadingLayer": "Loading layer...",
+    "generatingTiles": "Generating tiles, please wait...",
+    "baseLayers": "Base Layers",
+    "analysisFilters": "Analysis Filters",
+    "customFilters": "Your Custom Filters",
+    "custom": "Custom",
+    "formula": "Formula",
+    "close": "Close",
+    "bands": "Bands",
+    "applications": "Applications",
+    "deleteFilter": "Delete filter",
+    "hideForm": "Hide Form",
+    "waitForTiles": "Please wait until tile generation is complete before changing layers"
+  },
+  "customFilterModal": {
+    "title": "Create Custom Filter",
+    "filterName": {
+      "label": "Filter Name",
+      "placeholder": "My Custom Filter"
+    },
+    "description": {
+      "label": "Description (Optional)",
+      "placeholder": "What does this filter help analyze?"
+    },
+    "formula": {
+      "title": "Finalize the formula to generate the result",
+      "help": "Click on the Bands and Operators to select them.",
+      "bands": {
+        "label": "Bands",
+        "placeholder": "Your formula will appear here",
+        "band1": {
+          "label": "Band 1",
+          "placeholder": "Select Band 1"
+        },
+        "band2": {
+          "label": "Band 2",
+          "placeholder": "Select Band 2"
+        }
+      },
+      "operators": {
+        "label": "Operators",
+        "clear": "Clear"
+      },
+      "query": {
+        "label": "Query",
+        "placeholder": "Example: (Band1 - Band2) / (Band1 + Band2)"
+      }
+    },
+    "buttons": {
+      "create": "Create Filter",
+      "createAndApply": "Create & Apply to Form",
+      "cancel": "Cancel"
+    }
+  },
+  "tileGeneration": {
+    "title": "Tile Generation Settings",
+    "areaBounds": {
+      "title": "Area Bounds",
+      "custom": "Custom",
+      "currentMapView": "Current map view",
+      "selectedArea": "Selected area",
+      "selectArea": "Select Area",
+      "loadingAreas": "Loading areas...",
+      "minLongitude": "Min Longitude",
+      "minLatitude": "Min Latitude",
+      "maxLongitude": "Max Longitude",
+      "maxLatitude": "Max Latitude"
+    },
+    "timePeriod": {
+      "title": "Time Period & Resolution",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "zoomLevel": "Zoom Level",
+      "cloudCover": "Cloud Cover"
+    },
+    "analysisParameters": {
+      "title": "Analysis Parameters",
+      "simpleMode": "Simple Mode",
+      "advancedMode": "Advanced Mode",
+      "presetFormulas": "Preset Formulas",
+      "colorMap": "Color Map",
+      "band1": "Band 1",
+      "band2": "Band 2",
+      "formula": "Formula",
+      "formulaPlaceholder": "e.g. (band2-band1)/(band2+band1)",
+      "formulaHelp": "Use 'band1' and 'band2' as variables in your formula"
+    },
+    "generateButton": {
+      "default": "Generate Tiles",
+      "generating": "Generating..."
+    },
+    "timeSeries": {
+      "button": "Time Series",
+      "generating": "Generating...",
+      "loading": "Generating time series...",
+      "success": "Time series generated successfully!",
+      "errorTitle": "Time Series Generation Failed"
+    }
+  },
+  "mapSearch": {
+    "placeholder": "Search locations...",
+    "searching": "Searching...",
+    "noResults": "No results found",
+    "switchToArabic": "Switch to Arabic",
+    "switchToEnglish": "Switch to English"
+  },
+  "areaDetailsModal": {
+    "title": {
+      "add": "Add Area Details",
+      "edit": "Edit Area Details"
+    },
+    "description": "Please answer the following questions to help us provide personalized recommendations. All fields are optional.",
+    "sections": {
+      "farmInfo": "I. Farm/Field Information",
+      "cropManagement": "II. Crop Management Practices",
+      "historicalData": "III. Historical Data",
+      "documents": "IV. Document Uploads",
+      "additionalInfo": "V. Additional Information"
+    },
+    "fields": {
+      "areaName": {
+        "label": "Area Name",
+        "placeholder": "Enter area name"
+      },
+      "primaryCrop": {
+        "label": "1. Primary Crop(s)",
+        "placeholder": "e.g., Wheat, Corn, Rice"
+      },
+      "secondaryCrops": {
+        "label": "2. Secondary Crop(s)",
+        "placeholder": "e.g., Soybeans, Vegetables"
+      },
+      "irrigationSystem": {
+        "label": "3. Irrigation Method(s)",
+        "placeholder": "e.g., Drip, Sprinkler, Flood"
+      },
+      "soilType": {
+        "label": "4. Soil Type",
+        "placeholder": "e.g., Clay, Sandy, Loam"
+      },
+      "fertilization": {
+        "title": "● Fertilization:",
+        "types": {
+          "label": "1. Fertilizer Types",
+          "placeholder": "e.g., NPK, Urea, Organic"
+        },
+        "frequency": {
+          "label": "2. Application Frequency",
+          "placeholder": "e.g., Once per season, Monthly"
+        },
+        "method": {
+          "label": "3. Application Method",
+          "placeholder": "e.g., Broadcast, Foliar spray"
+        }
+      },
+      "pestManagement": {
+        "title": "● Pest and Disease Management:",
+        "pests": {
+          "label": "1. Common Pests/Diseases",
+          "placeholder": "e.g., Aphids, Rust, Blight"
+        },
+        "pesticides": {
+          "label": "2. Pesticides/Fungicides Used",
+          "placeholder": "e.g., Neem oil, Commercial products"
+        }
+      },
+      "historical": {
+        "previousYield": {
+          "label": "1. Previous Season's Yield",
+          "placeholder": "e.g., 5 tons/hectare of wheat"
+        },
+        "soilTest": {
+          "label": "2. Soil Test Results",
+          "placeholder": "e.g., pH 6.5, High K, Low P"
+        },
+        "yieldLosses": {
+          "label": "3. Recent Yield Losses",
+          "placeholder": "e.g., 20% loss due to drought in 2022"
+        }
+      },
+      "documents": {
+        "soilReports": {
+          "label": "1. Soil Test Reports",
+          "viewExisting": "View existing file"
+        },
+        "yieldData": {
+          "label": "2. Yield Data Sheets",
+          "viewExisting": "View existing file"
+        },
+        "cropPhotos": {
+          "label": "3. Crop/Field Photos",
+          "viewExisting": "View existing file"
+        },
+        "otherDocuments": {
+          "label": "4. Other Documents",
+          "viewExisting": "View existing file"
+        }
+      },
+      "additionalNotes": {
+        "label": "Additional Observations or Comments",
+        "placeholder": "Any other information that might be helpful..."
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "messages": {
+      "success": {
+        "add": "Area added successfully!",
+        "update": "Area updated successfully!"
+      },
+      "error": "Failed to save area. Please try again."
+    }
+  },
+  "coordinatesInput": {
+    "title": "Draw Area by Coordinates",
+    "points": "Points: {{count}}/3",
+    "placeholder": "Enter coordinates (one pair per line)\nFormat: longitude,latitude\nExample:\n30.8025,26.8206",
+    "error": {
+      "minPoints": "Please enter at least 3 coordinate pairs",
+      "invalidFormat": "Invalid format at line {{line}}",
+      "outOfRange": "Coordinates out of range at line {{line}}"
+    },
+    "requirements": {
+      "title": "Format Requirements:",
+      "onePerLine": "• One coordinate pair per line",
+      "useComma": "• Use comma as separator",
+      "minPoints": "• Minimum 3 points needed"
+    },
+    "ranges": {
+      "title": "Valid Ranges:",
+      "latitude": "• Latitude: -90 to 90",
+      "longitude": "• Longitude: -180 to 180"
+    },
+    "buttons": {
+      "drawArea": "Draw Area"
+    }
+  },
+  "drawnAreas": {
+    "title": "Drawn Areas ({{count}})",
+    "totalArea": "Total area: {{acres}} acres",
+    "search": {
+      "placeholder": "Search areas..."
+    },
+    "sort": {
+      "name": "Name (A-Z)",
+      "size": "Size (Largest)",
+      "crop": "Crop"
+    },
+    "noResults": {
+      "search": {
+        "title": "No areas match your search",
+        "clear": "Clear search"
+      },
+      "empty": {
+        "title": "No areas drawn yet",
+        "subtitle": "Draw an area on the map to get started"
+      }
+    },
+    "sections": {
+      "farmInfo": "Farm/Field Information",
+      "cropManagement": "Crop Management",
+      "historicalData": "Historical Data",
+      "additionalNotes": "Additional Notes",
+      "uploadedFiles": "Uploaded Files"
+    },
+    "fields": {
+      "primaryCrop": "Primary Crop:",
+      "secondaryCrops": "Secondary Crops:",
+      "irrigation": "Irrigation:",
+      "soilType": "Soil Type:",
+      "fertilizers": "Fertilizers:",
+      "application": "Application:",
+      "commonPests": "Common Pests:",
+      "pesticides": "Pesticides:",
+      "previousYield": "Previous Yield:",
+      "soilTestResults": "Soil Test Results:",
+      "yieldLosses": "Yield Losses:"
+    },
+    "files": {
+      "soilReports": "Soil Reports",
+      "yieldData": "Yield Data",
+      "cropPhotos": "Crop Photos",
+      "otherDocuments": "Other Documents"
+    },
+    "deleteConfirm": {
+      "title": "Confirm Delete",
+      "message": "Are you sure you want to delete this area? This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "messages": {
+      "deleteSuccess": "Area deleted successfully",
+      "deleteError": "Failed to delete area"
+    }
+  },
+  "spatialAnalysis": {
+    "title": "Spatial Analysis",
+    "zoomLevel": {
+      "label": "Zoom Level: {{level}}",
+      "min": "1",
+      "max": "19",
+      "description": "Adjust the resolution of the analysis for detailed examination at different scales"
+    },
+    "cloudCover": {
+      "label": "Cloud Cover Filtering: {{percentage}}%",
+      "min": "0%",
+      "max": "100%",
+      "description": "Exclude cloudy imagery to ensure data quality (lower value = less clouds)"
+    },
+    "applyButton": "Apply Settings"
+  },
+  "weatherDashboard": {
+    "title": "Weather Monitoring Dashboard",
+    "subtitle": "Advanced hyperlocal weather forecasting and soil monitoring for precision agriculture in {{areaName}}",
+    "loadError": "Error loading farm areas.",
+    "noAreas": "No farm areas found.",
+    "selectArea": "Select a farm area",
+    "noAreaSelected": "Please select an area to view the weather dashboard.",
+    "areaDetails": {
+      "title": "Area Details",
+      "size": "Size: {{size}} acres",
+      "location": "Location: {{location}}"
+    },
+    "cropInfo": {
+      "title": "Crop Information",
+      "primaryCrop": "Primary Crop: {{crop}}",
+      "soilType": "Soil Type: {{soilType}}"
+    },
+    "management": {
+      "title": "Management",
+      "irrigation": "Irrigation: {{irrigation}}",
+      "fertilization": "Fertilization: {{frequency}}"
+    },
+    "realTime": {
+      "title": "Real-Time Weather Intelligence",
+      "subtitle": "Comprehensive weather data and forecasting to optimize your farming decisions.",
+      "loading": "Loading data...",
+      "loadingArea": "Loading data for {{areaName}}...",
+      "displaying": "Displaying data for {{areaName}}. Last updated: {{time}}",
+      "error": "Error loading data: {{error}}"
+    },
+    "tabs": {
+      "hourly": "Hourly Forecast",
+      "daily": "Daily Forecast",
+      "soil": "Soil Conditions"
+    },
+    "hourly": {
+      "title": "24-Hour Weather Trends",
+      "subtitle": "Temperature, humidity, and cloud cover over the next 24 hours"
+    },
+    "daily": {
+      "title": "{{days}}-Day Temperature & Precipitation Forecast",
+      "subtitle": "Daily maximum/minimum temperatures and precipitation sum",
+      "range": {
+        "7days": "7 Days",
+        "14days": "14 Days"
+      }
+    },
+    "soil": {
+      "title": "Soil Temperature Profile",
+      "subtitle": "Temperature at different soil depths for the current hour"
+    },
+    "metrics": {
+      "temperature": {
+        "name": "Temperature (2m)",
+        "desc": "Air temp at 2m"
+      },
+      "humidity": {
+        "name": "Humidity (2m)",
+        "desc": "Relative humidity"
+      },
+      "rainfall": {
+        "name": "Rainfall",
+        "desc": "Precipitation rate"
+      },
+      "cloudCover": {
+        "name": "Cloud Cover",
+        "desc": "Total cloud coverage"
+      },
+      "et0": {
+        "name": "ET0 FAO",
+        "desc": "Reference evapotranspiration"
+      },
+      "windSpeed": {
+        "name": "Wind Speed (10m)",
+        "desc": "Wind at 10m"
+      },
+      "windDirection": {
+        "name": "Wind Direction (10m)",
+        "desc": "Wind direction from N"
+      },
+      "vpd": {
+        "name": "VPD",
+        "desc": "Vapor pressure deficit"
+      },
+      "maxTemp": {
+        "name": "Max Temp",
+        "desc": "Daily max temperature"
+      },
+      "minTemp": {
+        "name": "Min Temp",
+        "desc": "Daily min temperature"
+      },
+      "sunshine": {
+        "name": "Sunshine",
+        "desc": "Hours of sunshine"
+      },
+      "totalRain": {
+        "name": "Total Rain",
+        "desc": "Total daily precipitation"
+      },
+      "rainChance": {
+        "name": "Rain Chance",
+        "desc": "Max precipitation chance"
+      },
+      "maxWind": {
+        "name": "Max Wind",
+        "desc": "Max wind speed"
+      },
+      "sunrise": {
+        "name": "Sunrise",
+        "desc": "Sunrise time"
+      },
+      "sunset": {
+        "name": "Sunset",
+        "desc": "Sunset time"
+      },
+      "soilTemp": {
+        "surface": {
+          "name": "Surface Temp",
+          "desc": "Soil temp at 0cm"
+        },
+        "shallow": {
+          "name": "Temp (6cm)",
+          "desc": "Soil temp at 6cm"
+        },
+        "root": {
+          "name": "Temp (18cm)",
+          "desc": "Soil temp at 18cm (Root Zone)"
+        }
+      },
+      "soilMoisture": {
+        "surface": {
+          "name": "Surface Moisture",
+          "desc": "Soil moisture 0-1cm"
+        },
+        "shallow": {
+          "name": "Moisture (1-3cm)",
+          "desc": "Soil moisture 1-3cm"
+        },
+        "medium": {
+          "name": "Moisture (3-9cm)",
+          "desc": "Soil moisture 3-9cm"
+        },
+        "deep": {
+          "name": "Moisture (9-27cm)",
+          "desc": "Soil moisture 9-27cm"
+        },
+        "veryDeep": {
+          "name": "Deep Moisture",
+          "desc": "Soil moisture 27-81cm"
+        }
+      }
+    }
+  },
+  "map": {
+    "layers": {
+      "trueColor": {
+        "name": "Esri Satellite (True Color)",
+        "description": "High-resolution satellite imagery showing natural colors as perceived by the human eye",
+        "bands": "Red, Green, Blue (B04, B03, B02)",
+        "application": "Basic visual assessment of crop health and landscape features"
+      },
+      "osm": {
+        "name": "OpenStreetMap (OSM)",
+        "description": "Detailed street-level map with roads, buildings, and infrastructure",
+        "bands": "Vector data",
+        "application": "Navigation, infrastructure planning, and general orientation"
+      },
+      "topo": {
+        "name": "OpenTopoMap (Topographic)",
+        "description": "Topographic map showing elevation contours and terrain features",
+        "bands": "Vector and elevation data",
+        "application": "Terrain analysis, slope assessment, and watershed planning"
+      },
+      "ndvi": {
+        "name": "NDVI Filter",
+        "description": "Normalized Difference Vegetation Index - Analyzes vegetation health and vigor",
+        "bands": "Near Infrared, Red (B08, B04)",
+        "application": "Crop health monitoring, biomass estimation, and vegetation stress detection"
+      },
+      "ndwi": {
+        "name": "NDWI Filter",
+        "description": "Normalized Difference Water Index - Detects and maps water bodies",
+        "bands": "Green, Near Infrared (B03, B08)",
+        "application": "Water resource management, flood risk assessment, and wetland monitoring"
+      },
+      "visualBands": {
+        "name": "Visual Bands (RGB)",
+        "description": "Raw visual satellite imagery for direct understanding of land surface conditions",
+        "bands": "Red, Green, Blue (B04, B03, B02)",
+        "application": "Direct visual assessment of land cover and surface conditions"
+      }
+    },
+    "colormaps": {
+      "RdYlGn": "Red-Yellow-Green",
+      "viridis": "Viridis",
+      "plasma": "Plasma",
+      "inferno": "Inferno",
+      "magma": "Magma",
+      "cividis": "Cividis",
+      "YlGnBu": "Yellow-Green-Blue",
+      "jet": "Jet"
+    },
+    "bands": {
+      "blue": "Blue (B02)",
+      "green": "Green (B03)",
+      "red": "Red (B04)",
+      "nir": "NIR (B08)",
+      "nir_narrow": "Narrow NIR (B8A)",
+      "red_edge1": "Red Edge 1 (B05)",
+      "red_edge2": "Red Edge 2 (B06)",
+      "red_edge3": "Red Edge 3 (B07)",
+      "swir1": "SWIR 1 (B11)",
+      "swir2": "SWIR 2 (B12)"
+    },
+    "presetFormulas": {
+      "NDVI": {
+        "name": "NDVI",
+        "description": "Normalized Difference Vegetation Index - Vegetation health"
+      },
+      "NDWI": {
+        "name": "NDWI",
+        "description": "Normalized Difference Water Index - Water bodies detection"
+      },
+      "NDBI": {
+        "name": "NDBI",
+        "description": "Normalized Difference Built-up Index - Urban areas"
+      },
+      "EVI": {
+        "name": "EVI",
+        "description": "Enhanced Vegetation Index - Improved vegetation index"
+      }
+    }
+  },
+  "timeSeriesModal": {
+    "gifTab": "GIF Animation",
+    "valuesTab": "Values Over Time",
+    "gifAlt": "GIF Animation",
+    "valuesAlt": "Values Over Time"
+  }
+}

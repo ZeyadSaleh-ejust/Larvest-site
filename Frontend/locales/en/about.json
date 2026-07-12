@@ -1,0 +1,152 @@
+{
+  "sections": {
+    "aboutUs": "About Us",
+    "ourVision": "Our Vision",
+    "ourValues": "Our Values",
+    "ourPurpose": "Our Purpose",
+    "_fallback": {
+      "aboutUs": "About Us",
+      "ourVision": "Our Vision",
+      "ourValues": "Our Values",
+      "ourPurpose": "Our Purpose"
+    }
+  },
+  "hero": {
+    "title": "Revolutionizing Agriculture Through Remote Sensing",
+    "description": "At Larvest, we harness the power of technology to transform agriculture. By combining satellite data and AI, our innovative platform delivers real-time, accurate insights into crop health across diverse agricultural sectors. Say goodbye to outdated, labor-intensive methods - empower your journey with Larvest's data-driven solutions.",
+    "_fallback": {
+      "title": "Revolutionizing Agriculture Through Remote Sensing",
+      "description": "At Larvest, we harness the power of technology to transform agriculture. By combining satellite data and AI, our innovative platform delivers real-time, accurate insights into crop health across diverse agricultural sectors. Say goodbye to outdated, labor-intensive methods - empower your journey with Larvest's data-driven solutions."
+    }
+  },
+  "vision": {
+    "title": "Shaping the Future of Remote Sensing",
+    "subtitle": "We envision a world where technology and remote sensing work in harmony to feed the planet sustainably",
+    "points": {
+      "FloodRisk": {
+        "title": "Flood Risk & Hydrological Modeling",
+        "description": "We protect your infrastructure from extreme weather. By processing high-resolution Digital Elevation Models (DEM) and predictive precipitation data, we generate accurate runoff maps, watershed analyses, and retention zone blueprints."
+      },
+      "EnvironmentalImpact": {
+        "title": "Environmental Impact & Land Cover Analysis (LULC)",
+        "description": "Ensure your project meets international sustainability compliance. We utilize rapid, algorithmic processing of satellite imagery to track urban expansion, map deforestation, and calculate different environmental parameters."
+      },
+      "AgriculturalSpatial": {
+        "title": "Agricultural Spatial Intelligence & Soil Mapping",
+        "description": "De-risk your agricultural investments. We map macro-scale soil moisture baselines and vegetation health indices across vast reclamations to optimize irrigation and monitor aquifer sustainability."
+      },
+      "Geospatial": {
+        "title": "Geospatial R&D",
+        "description": "Have a unique spatial data problem? Our data scientists will build custom computational pipelines to process, interpret, and extract actionable signals from integrated complex satellite telemetry with ground observatories."
+      }
+    },
+    "_fallback": {
+      "title": "Shaping the Future of Agriculture",
+      "subtitle": "We envision a world where technology and agriculture work in harmony to feed the planet sustainably",
+      "points": {
+        "FloodRisk": {
+          "title": "Flood Risk & Hydrological Modeling",
+          "description": "We protect your infrastructure from extreme weather. By processing high-resolution Digital Elevation Models (DEM) and predictive precipitation data, we generate accurate runoff maps, watershed analyses, and retention zone blueprints."
+        },
+        "EnvironmentalImpact": {
+          "title": "Environmental Impact & Land Cover Analysis (LULC)",
+          "description": "Ensure your project meets international sustainability compliance. We utilize rapid, algorithmic processing of satellite imagery to track urban expansion, map deforestation, and calculate different environmental parameters."
+        },
+        "AgriculturalSpatial": {
+          "title": "Agricultural Spatial Intelligence & Soil Mapping",
+          "description": "De-risk your agricultural investments. We map macro-scale soil moisture baselines and vegetation health indices across vast reclamations to optimize irrigation and monitor aquifer sustainability."
+        },
+        "Geospatial": {
+        "title": "Geospatial R&D",
+        "description": "Have a unique spatial data problem? Our data scientists will build custom computational pipelines to process, interpret, and extract actionable signals from integrated complex satellite telemetry with ground observatories."
+      }
+      }
+    }
+  },
+  "stats": {
+    "yearsExperience": "Years Experience",
+    "happyClients": "Happy Clients",
+    "successRate": "Success Rate",
+    "awardsWon": "Awards Won",
+    "_fallback": {
+      "yearsExperience": "Years Experience",
+      "happyClients": "Happy Clients",
+      "successRate": "Success Rate",
+      "awardsWon": "Awards Won"
+    }
+  },
+  "values": {
+    "title": "What Drives Us Forward",
+    "subtitle": "Building a sustainable future through innovation and excellence",
+    "excellence": {
+      "title": "Excellence",
+      "description": "We strive for excellence in every service we deliver, setting industry standards."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Embracing cutting-edge solutions to meet evolving agricultural needs."
+    },
+    "integrity": {
+      "title": "Integrity",
+      "description": "Building trust through transparent and ethical farming practices."
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "Committed to environmentally responsible operations and practices."
+    },
+    "_fallback": {
+      "title": "What Drives Us Forward",
+      "subtitle": "Building a sustainable future through innovation and excellence",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for excellence in every service we deliver, setting industry standards."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Embracing cutting-edge solutions to meet evolving agricultural needs."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "Building trust through transparent and ethical farming practices."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Committed to environmentally responsible operations and practices."
+      }
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "steps": {
+      "optimizeYields": {
+        "title": "Optimize Farm Yields",
+        "description": "Transform agriculture with cutting-edge technology to enhance productivity and efficiency."
+      },
+      "foodSecurity": {
+        "title": "Enhance Food Security",
+        "description": "Develop innovative solutions to support reliable food production for a growing global population."
+      },
+      "sustainability": {
+        "title": "Promote Sustainability",
+        "description": "Conserve natural resources and champion eco-friendly practices for a sustainable farming future."
+      }
+    },
+    "_fallback": {
+      "title": "Our Mission",
+      "steps": {
+        "optimizeYields": {
+          "title": "Optimize Farm Yields",
+          "description": "Transform agriculture with cutting-edge technology to enhance productivity and efficiency."
+        },
+        "foodSecurity": {
+          "title": "Enhance Food Security",
+          "description": "Develop innovative solutions to support reliable food production for a growing global population."
+        },
+        "sustainability": {
+          "title": "Promote Sustainability",
+          "description": "Conserve natural resources and champion eco-friendly practices for a sustainable farming future."
+        }
+      }
+    }
+  }
+}
