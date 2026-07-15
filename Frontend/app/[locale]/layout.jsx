@@ -17,7 +17,7 @@ const cairo = Cairo({
 
 export const metadata = {
   title: "Larvest",
-  description: "Smart Agriculture Solutions",
+  description: "AI-Remote Sensing Solutions",
 };
 
 const i18nNamespaces = ['common', 'home', "about", "services", "contact", "pricing", "dashboard"]; // Add your namespaces here
