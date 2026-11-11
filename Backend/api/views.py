@@ -1,4 +1,5 @@
 import os
+import re
 import asyncio
 import tempfile
 import uuid
@@ -150,11 +151,10 @@ class TileGenerationView(APIView):
                 serializer.errors,
                 status=status.HTTP_400_BAD_REQUEST
             )
+        loop = asyncio.new_event_loop()
         try:
-            loop = asyncio.new_event_loop()
             asyncio.set_event_loop(loop)
             results, map_path, map_html = loop.run_until_complete(generate_tiles_and_map(**serializer.validated_data))
-            loop.close()
             return Response(
                 {
                     "message": "Tile generation and map creation completed successfully",
@@ -170,6 +170,9 @@ class TileGenerationView(APIView):
                 {"error": f"Failed to generate tiles and map: {str(e)}"},
                 status=status.HTTP_400_BAD_REQUEST
             )
+        finally:
+            # previously the loop was only closed on success, leaking one event loop per failed request
+            loop.close()
 
 
 class TileMapView(APIView):
@@ -178,6 +181,15 @@ class TileMapView(APIView):
         if not map_filename:
             return Response(
                 {"error": "No map file specified"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        # SECURITY: `path` comes from the query string. Without this check
+        # ?path=../../something let a caller read any file next to the temp dir.
+        # Only bare file names produced by generate_tiles_and_map are served.
+        if (map_filename != os.path.basename(map_filename)
+                or not re.fullmatch(r"satellite_map_[0-9_-]+\.html", map_filename)):
+            return Response(
+                {"error": "Invalid map file name"},
                 status=status.HTTP_400_BAD_REQUEST
             )
         map_path = os.path.join(tempfile.gettempdir(), map_filename)

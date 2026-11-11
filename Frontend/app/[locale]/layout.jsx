@@ -20,7 +20,7 @@ export const metadata = {
   description: "AI-Remote Sensing Solutions",
 };
 
-const i18nNamespaces = ['common', 'home', "about", "services", "contact", "pricing", "dashboard"]; // Add your namespaces here
+const i18nNamespaces = ['common', 'home', "about", "services", "contact", "pricing", "dashboard", "cropHealth"]; // Add your namespaces here
 
 export function generateStaticParams() {
   return i18nConfig.locales.map(locale => ({ locale }));

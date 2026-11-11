@@ -1,0 +1,18 @@
+{
+  "title": "Crop Health Explorer",
+  "subtitle": "Pick a satellite date, a method and the fields you care about. The map, numbers and trend update instantly, with no waiting on a server.",
+  "provenance": "Real Sentinel-2 surface reflectance (Cloud Score+ masked) and Landsat 8/9 surface temperature over Nubaria, Egypt. Indices and classification are computed in your browser.",
+  "soilOpt": {
+    "old_delta_clay": "Old Delta clay",
+    "reclaimed_sandy": "Reclaimed sandy soil",
+    "calcareous_sandy": "Calcareous sandy desert (Nubaria)"
+  },
+  "group": {
+    "vigour": "Vegetation vigour",
+    "nitrogen": "Chlorophyll / nitrogen",
+    "water": "Water",
+    "stress": "Stress / senescence",
+    "soil": "Soil",
+    "thermal": "Thermal"
+  }
+}
