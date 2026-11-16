@@ -42,6 +42,7 @@ export default function Navbar() {
     { title: t('navbar.services'), url: `/${currentLocale}/services/` },
     { title: 'Forecast', url: `/${currentLocale}/map-forecast/` },
     { title: t('navbar.cropHealth'), url: `/${currentLocale}/dashboard/` },
+    { title: t('navbar.cropHealthExplorer'), url: `/${currentLocale}/crop-health/` },
     { title: t('navbar.contact'), url: `/${currentLocale}/contact/` },
   ];
 

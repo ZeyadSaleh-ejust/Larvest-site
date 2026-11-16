@@ -1,0 +1,20 @@
+# Everything needed to rebuild the data pack and run the checks in tools/
+# (separate from Backend/requirements.txt, which is for the Django API)
+earthengine-api>=1.0
+numpy
+pandas
+openpyxl
+pyproj
+rasterio
+matplotlib
+requests
+# notebook smoke test (tools/notebook_smoke_test.py) additionally needs:
+geopandas
+shapely
+folium
+contextily
+adjustText
+arabic-reshaper
+python-bidi
+# browser test (tools/ui_test.py):
+playwright

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Distinct Larvest polygons from raw Excel points</name>
+<Style id="Tomato"><LineStyle><color>ff4444ef</color><width>3</width></LineStyle><PolyStyle><color>884444ef</color></PolyStyle></Style>
+<Style id="Corn"><LineStyle><color>ff15ccfa</color><width>3</width></LineStyle><PolyStyle><color>8815ccfa</color></PolyStyle></Style>
+<Style id="Pepper"><LineStyle><color>ff5ec522</color><width>3</width></LineStyle><PolyStyle><color>885ec522</color></PolyStyle></Style>
+<Style id="Aube"><LineStyle><color>fff755a8</color><width>3</width></LineStyle><PolyStyle><color>88f755a8</color></PolyStyle></Style>
+<Style id="Clover"><LineStyle><color>ff4aa316</color><width>3</width></LineStyle><PolyStyle><color>884aa316</color></PolyStyle></Style>
+<Style id="Cantaloupe"><LineStyle><color>ff3c92fb</color><width>3</width></LineStyle><PolyStyle><color>883c92fb</color></PolyStyle></Style>
+<Style id="Bean"><LineStyle><color>ffd4b606</color><width>3</width></LineStyle><PolyStyle><color>88d4b606</color></PolyStyle></Style>
+<Placemark><name>Tomato — Excel rows 2-5</name><styleUrl>#Tomato</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.66399820,30.77340030,0 29.66587450,30.77376980,0 29.66531900,30.77498620,0 29.66339190,30.77465740,0 29.66399820,30.77340030,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Tomato vertex 1 — rows 2-5</name><Point><coordinates>29.66399820,30.77340030,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 2 — rows 2-5</name><Point><coordinates>29.66587450,30.77376980,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 3 — rows 2-5</name><Point><coordinates>29.66531900,30.77498620,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 4 — rows 2-5</name><Point><coordinates>29.66339190,30.77465740,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato — Excel rows 6-9</name><styleUrl>#Tomato</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.66903333,30.77716667,0 29.67100940,30.77755050,0 29.67040260,30.77877540,0 29.66848333,30.77833333,0 29.66903333,30.77716667,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Tomato vertex 1 — rows 6-9</name><Point><coordinates>29.66903333,30.77716667,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 2 — rows 6-9</name><Point><coordinates>29.67100940,30.77755050,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 3 — rows 6-9</name><Point><coordinates>29.67040260,30.77877540,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 4 — rows 6-9</name><Point><coordinates>29.66848333,30.77833333,0</coordinates></Point></Placemark>
+<Placemark><name>Clover — Excel rows 10-13</name><styleUrl>#Clover</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.66793333,30.77945000,0 29.66993120,30.77990780,0 29.66938640,30.78100090,0 29.66746320,30.78058890,0 29.66793333,30.77945000,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Clover vertex 1 — rows 10-13</name><Point><coordinates>29.66793333,30.77945000,0</coordinates></Point></Placemark>
+<Placemark><name>Clover vertex 2 — rows 10-13</name><Point><coordinates>29.66993120,30.77990780,0</coordinates></Point></Placemark>
+<Placemark><name>Clover vertex 3 — rows 10-13</name><Point><coordinates>29.66938640,30.78100090,0</coordinates></Point></Placemark>
+<Placemark><name>Clover vertex 4 — rows 10-13</name><Point><coordinates>29.66746320,30.78058890,0</coordinates></Point></Placemark>
+<Placemark><name>Cantaloupe — Excel rows 14-17</name><styleUrl>#Cantaloupe</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.66848333,30.77833333,0 29.67040260,30.77877540,0 29.66993120,30.77990780,0 29.66793333,30.77945000,0 29.66848333,30.77833333,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Cantaloupe vertex 1 — rows 14-17</name><Point><coordinates>29.66848333,30.77833333,0</coordinates></Point></Placemark>
+<Placemark><name>Cantaloupe vertex 2 — rows 14-17</name><Point><coordinates>29.67040260,30.77877540,0</coordinates></Point></Placemark>
+<Placemark><name>Cantaloupe vertex 3 — rows 14-17</name><Point><coordinates>29.66993120,30.77990780,0</coordinates></Point></Placemark>
+<Placemark><name>Cantaloupe vertex 4 — rows 14-17</name><Point><coordinates>29.66793333,30.77945000,0</coordinates></Point></Placemark>
+<Placemark><name>Bean — Excel rows 18-21</name><styleUrl>#Bean</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67113370,30.77762850,0 29.67309140,30.77803350,0 29.67255000,30.77913333,0 29.67060290,30.77866830,0 29.67113370,30.77762850,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Bean vertex 1 — rows 18-21</name><Point><coordinates>29.67113370,30.77762850,0</coordinates></Point></Placemark>
+<Placemark><name>Bean vertex 2 — rows 18-21</name><Point><coordinates>29.67309140,30.77803350,0</coordinates></Point></Placemark>
+<Placemark><name>Bean vertex 3 — rows 18-21</name><Point><coordinates>29.67255000,30.77913333,0</coordinates></Point></Placemark>
+<Placemark><name>Bean vertex 4 — rows 18-21</name><Point><coordinates>29.67060290,30.77866830,0</coordinates></Point></Placemark>
+<Placemark><name>Corn — Excel rows 22-25 &amp; 62-65 — identical coordinate set occurs twice</name><styleUrl>#Corn</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67095706,30.78266772,0 29.67282600,30.78305740,0 29.67238080,30.78424060,0 29.67043203,30.78379312,0 29.67095706,30.78266772,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Corn vertex 1 — rows 22-25 &amp; 62-65</name><Point><coordinates>29.67095706,30.78266772,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 2 — rows 22-25 &amp; 62-65</name><Point><coordinates>29.67282600,30.78305740,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 3 — rows 22-25 &amp; 62-65</name><Point><coordinates>29.67238080,30.78424060,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 4 — rows 22-25 &amp; 62-65</name><Point><coordinates>29.67043203,30.78379312,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper — Excel rows 26-29</name><styleUrl>#Pepper</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67095706,30.78266772,0 29.67110332,30.78229764,0 29.67301920,30.78268520,0 29.67282600,30.78305740,0 29.67095706,30.78266772,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Pepper vertex 1 — rows 26-29</name><Point><coordinates>29.67095706,30.78266772,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper vertex 2 — rows 26-29</name><Point><coordinates>29.67110332,30.78229764,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper vertex 3 — rows 26-29</name><Point><coordinates>29.67301920,30.78268520,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper vertex 4 — rows 26-29</name><Point><coordinates>29.67282600,30.78305740,0</coordinates></Point></Placemark>
+<Placemark><name>Corn — Excel rows 30-33</name><styleUrl>#Corn</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.68044810,30.77718540,0 29.68245000,30.77771667,0 29.68210000,30.77830000,0 29.68010410,30.77781190,0 29.68044810,30.77718540,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Corn vertex 1 — rows 30-33</name><Point><coordinates>29.68044810,30.77718540,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 2 — rows 30-33</name><Point><coordinates>29.68245000,30.77771667,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 3 — rows 30-33</name><Point><coordinates>29.68210000,30.77830000,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 4 — rows 30-33</name><Point><coordinates>29.68010410,30.77781190,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato — Excel rows 34-37</name><styleUrl>#Tomato</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.68009380,30.77783550,0 29.68210000,30.77830000,0 29.68185000,30.77883333,0 29.67986667,30.77833333,0 29.68009380,30.77783550,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Tomato vertex 1 — rows 34-37</name><Point><coordinates>29.68009380,30.77783550,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 2 — rows 34-37</name><Point><coordinates>29.68210000,30.77830000,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 3 — rows 34-37</name><Point><coordinates>29.68185000,30.77883333,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 4 — rows 34-37</name><Point><coordinates>29.67986667,30.77833333,0</coordinates></Point></Placemark>
+<Placemark><name>Corn — Excel rows 38-41</name><styleUrl>#Corn</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67930260,30.77941950,0 29.68133333,30.77988333,0 29.68054450,30.78131090,0 29.67861810,30.78083210,0 29.67930260,30.77941950,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Corn vertex 1 — rows 38-41</name><Point><coordinates>29.67930260,30.77941950,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 2 — rows 38-41</name><Point><coordinates>29.68133333,30.77988333,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 3 — rows 38-41</name><Point><coordinates>29.68054450,30.78131090,0</coordinates></Point></Placemark>
+<Placemark><name>Corn vertex 4 — rows 38-41</name><Point><coordinates>29.67861810,30.78083210,0</coordinates></Point></Placemark>
+<Placemark><name>Aube. — Excel rows 42-45</name><styleUrl>#Aube</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67672280,30.78456740,0 29.67868333,30.78498333,0 29.67836360,30.78551600,0 29.67640000,30.78516667,0 29.67672280,30.78456740,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Aube. vertex 1 — rows 42-45</name><Point><coordinates>29.67672280,30.78456740,0</coordinates></Point></Placemark>
+<Placemark><name>Aube. vertex 2 — rows 42-45</name><Point><coordinates>29.67868333,30.78498333,0</coordinates></Point></Placemark>
+<Placemark><name>Aube. vertex 3 — rows 42-45</name><Point><coordinates>29.67836360,30.78551600,0</coordinates></Point></Placemark>
+<Placemark><name>Aube. vertex 4 — rows 42-45</name><Point><coordinates>29.67640000,30.78516667,0</coordinates></Point></Placemark>
+<Placemark><name>Aube. — Excel rows 46-49</name><styleUrl>#Aube</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67818333,30.77715000,0 29.67835000,30.77670000,0 29.68009570,30.77756140,0 29.68010330,30.77756470,0 29.67818333,30.77715000,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Aube. vertex 1 — rows 46-49</name><Point><coordinates>29.67818333,30.77715000,0</coordinates></Point></Placemark>
+<Placemark><name>Aube. vertex 2 — rows 46-49</name><Point><coordinates>29.67835000,30.77670000,0</coordinates></Point></Placemark>
+<Placemark><name>Aube. vertex 3 — rows 46-49</name><Point><coordinates>29.68009570,30.77756140,0</coordinates></Point></Placemark>
+<Placemark><name>Aube. vertex 4 — rows 46-49</name><Point><coordinates>29.68010330,30.77756470,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper — Excel rows 50-53</name><styleUrl>#Pepper</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67818333,30.77715000,0 29.68009570,30.77759410,0 29.67974990,30.77828950,0 29.67786750,30.77785170,0 29.67818333,30.77715000,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Pepper vertex 1 — rows 50-53</name><Point><coordinates>29.67818333,30.77715000,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper vertex 2 — rows 50-53</name><Point><coordinates>29.68009570,30.77759410,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper vertex 3 — rows 50-53</name><Point><coordinates>29.67974990,30.77828950,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper vertex 4 — rows 50-53</name><Point><coordinates>29.67786750,30.77785170,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato — Excel rows 54-57</name><styleUrl>#Tomato</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67561667,30.78241667,0 29.67741670,30.78283070,0 29.67694170,30.78391130,0 29.67503333,30.78351667,0 29.67561667,30.78241667,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Tomato vertex 1 — rows 54-57</name><Point><coordinates>29.67561667,30.78241667,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 2 — rows 54-57</name><Point><coordinates>29.67741670,30.78283070,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 3 — rows 54-57</name><Point><coordinates>29.67694170,30.78391130,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 4 — rows 54-57</name><Point><coordinates>29.67503333,30.78351667,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato — Excel rows 58-61</name><styleUrl>#Tomato</styleUrl><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>29.67282600,30.78305740,0 29.67503333,30.78351667,0 29.67450000,30.78473333,0 29.67238080,30.78424060,0 29.67282600,30.78305740,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Tomato vertex 1 — rows 58-61</name><Point><coordinates>29.67282600,30.78305740,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 2 — rows 58-61</name><Point><coordinates>29.67503333,30.78351667,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 3 — rows 58-61</name><Point><coordinates>29.67450000,30.78473333,0</coordinates></Point></Placemark>
+<Placemark><name>Tomato vertex 4 — rows 58-61</name><Point><coordinates>29.67238080,30.78424060,0</coordinates></Point></Placemark>
+</Document></kml>

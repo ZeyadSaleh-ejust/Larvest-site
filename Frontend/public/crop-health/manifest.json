@@ -1,0 +1,186 @@
+{
+ "generated": "2026-11-11T18:49:01Z",
+ "source": "Sentinel-2 SR Harmonized + Cloud Score+ (cs>=0.6); Landsat 8/9 C2 L2 ST_B10",
+ "grid": {
+  "width": 261,
+  "height": 173,
+  "lon0": 29.6575571067548,
+  "lat0": 30.787346030712463,
+  "dlon": 0.00010455908500357773,
+  "dlat": 9.043717329571147e-05,
+  "pixel_area_m2": 100.0
+ },
+ "bands": [
+  "B2",
+  "B3",
+  "B4",
+  "B5",
+  "B6",
+  "B8",
+  "B11",
+  "B12"
+ ],
+ "reflectance_scale": 10000,
+ "lst": {
+  "offset_c": 10.0,
+  "scale": 4.0,
+  "max_gap_days": 8
+ },
+ "n_parcels": 15,
+ "dates": [
+  {
+   "date": "2025-11-11",
+   "s2_valid_fraction": 0.9051,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0006
+  },
+  {
+   "date": "2025-12-03",
+   "s2_valid_fraction": 0.9573,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0
+  },
+  {
+   "date": "2025-12-21",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2025-12-24",
+   "lst_gap_days": 3,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-01-05",
+   "s2_valid_fraction": 1.0,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0
+  },
+  {
+   "date": "2026-01-25",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-01-25",
+   "lst_gap_days": 0,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-02-14",
+   "s2_valid_fraction": 1.0,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.2958
+  },
+  {
+   "date": "2026-03-01",
+   "s2_valid_fraction": 0.9691,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0
+  },
+  {
+   "date": "2026-03-16",
+   "s2_valid_fraction": 1.0,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0
+  },
+  {
+   "date": "2026-03-31",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-03-31",
+   "lst_gap_days": 0,
+   "lst_valid_fraction": 0.9981
+  },
+  {
+   "date": "2026-04-15",
+   "s2_valid_fraction": 0.9938,
+   "lst_date": "2026-04-15",
+   "lst_gap_days": 0,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-04-30",
+   "s2_valid_fraction": 1.0,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0
+  },
+  {
+   "date": "2026-05-25",
+   "s2_valid_fraction": 0.9954,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0
+  },
+  {
+   "date": "2026-06-09",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-06-10",
+   "lst_gap_days": 1,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-06-24",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-06-26",
+   "lst_gap_days": 2,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-07-09",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-07-12",
+   "lst_gap_days": 3,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-07-24",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-07-21",
+   "lst_gap_days": 3,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-08-08",
+   "s2_valid_fraction": 0.9886,
+   "lst_date": "2026-08-06",
+   "lst_gap_days": 2,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-08-23",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-08-22",
+   "lst_gap_days": 1,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-09-07",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-09-07",
+   "lst_gap_days": 0,
+   "lst_valid_fraction": 1.0
+  },
+  {
+   "date": "2026-09-27",
+   "s2_valid_fraction": 1.0,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0026
+  },
+  {
+   "date": "2026-10-12",
+   "s2_valid_fraction": 1.0,
+   "lst_date": null,
+   "lst_gap_days": null,
+   "lst_valid_fraction": 0.0
+  },
+  {
+   "date": "2026-10-27",
+   "s2_valid_fraction": 1.0,
+   "lst_date": "2026-10-25",
+   "lst_gap_days": 2,
+   "lst_valid_fraction": 1.0
+  }
+ ]
+}
